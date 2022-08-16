@@ -1,40 +1,36 @@
-let object=[
-    {"person":"John","age":30,"company":"Google"},
-    {"person":"Mohn","age":37,"company":"Flipkart"},
-    {"person":"Kohn","age":38,"company":"Amazon"},
-    {"person":"Sohan","age":40,"company":"Myntra"},
-    {"person":"Jenny","age":70,"company":"Apple"},
-]
+let myself= "BioData:"
+console.log(myself)
 
-for(let data of object){
-    console.log (data)
-   }
-   
-   object.forEach(function(item){
-    console.log (item)
-  });
+let person={
 
-  
- for(let key in object){
-    console.log(`
-person: ${object[key].person}
-age   : ${object[key].age}   
-company: ${object[key].company} 
-    
-    `)
- }
+    name: "Dushinthan K",
+    email: "vankatesh.dushinthan@gmail.com",
+    age: 25,
+    Residence: "Chennai",
+    Education:{
+        Degree: "Bachelor of Engineering",
+        Departmant: "Mehcanical",
+        Completion: "2019",
+    },
+    Work:{
 
- for(let i=0;object.length;i++){
-    console.log(`
-    
-    Person : ${object[i].person}
-    Age    : ${object[i].age}
-    Company: ${object[i].company}
-   
-    `)
- }
+        Organisation: "Amazon Development Center",
+        Experience: "2 yers and 8 months",
+        Location: "Chennai",
+     },
+
+     Hobbies:{
+
+        Hobby1: "playing outdoor sports",
+        Hobby2: "Playing online Video Game"
+    },
+
+}
+
+console.log(person);
+console.log(person.Work);
+console.log(person.Hobbies);
 
 
-
-
-
+let Declaration= "I hereby declare that all the above given information are true to my knowledge" 
+console.log(Declaration);
